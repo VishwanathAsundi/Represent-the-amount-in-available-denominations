@@ -1,0 +1,46 @@
+.my-app {
+
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .5);
+    background-color: #f1f1f2;
+
+}
+
+.heading {
+    background-color: #f1f1f2;
+    padding: 10px;
+}
+
+.user-block {
+    padding: 25px;
+
+    input[type="text"],
+    button {
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
+
+.display-block {
+    padding: 25px;
+    min-height: 300px;
+
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+        padding: 5px;
+        background-color: #fff;
+        margin-bottom: 3px;
+        font-weight: 500;
+
+        &:hover {
+            background-color: #f1f1f2;
+        }
+    }
+}
